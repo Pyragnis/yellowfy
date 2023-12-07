@@ -8,6 +8,7 @@ const Button = styled.button`
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius:33px;
 `;
 
 export default Button;

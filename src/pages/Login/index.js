@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Button from '../../components/Button';
+import MusicPlayer from '../../components/MusicPlayer';
 
 const LoginPage = styled.div`
   display: flex;
@@ -28,6 +29,8 @@ const Login = () => {
     <LoginPage>
       <h1 style={{ color: '#ffd700' }}>Yellowfy</h1>
       <Button onClick={handleLogin}>Connexion sur Yellowfy</Button>
+      <MusicPlayer trackUrl={'test'} imageUrl={'https://www.powertrafic.fr/wp-content/uploads/2023/04/image-ia-exemple.png'} />
+
     </LoginPage>
   );
 };
