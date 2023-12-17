@@ -11,8 +11,11 @@ const AudioPlayerWrapper = styled.div`
   max-width: 600px;
   margin: auto;
   text-align: center;
-  border-redius:33px;
+  border-radius:33px;
 
+  .rhap_container {
+    background-color: black !important; // Utilise !important pour s'assurer que le style est appliqué
+  }
 
   img {
     width: 100%;
